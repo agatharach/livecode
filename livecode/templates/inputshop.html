@@ -1,0 +1,14 @@
+{% extends "base/base.html" %}
+{% block content %}
+
+
+<div class="form_input text-center">
+    <h2>Input Shop Form</h2>
+    <form method="POST" class="post-form" >
+        {% csrf_token %}
+        {{ form.as_p}}
+        <button type="submit">Save</button>
+    </form>
+</div>
+
+{% endblock %}

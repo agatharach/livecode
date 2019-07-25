@@ -1,0 +1,24 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+    <div class="container">
+            <div class="row">
+                {% for i in shop %}
+                <div class="col-4 pr-2">
+                    <div class="col-12 justify-content-center">
+                        <img class="blogphotos" src="{{i.photo}}">
+                    </div>
+                    <div class="row nama justify-content-center">
+                            <p>{{i.item}}</p>
+                    </div> 
+                    <div class="row harga justify-content-center">
+                        {{i.harga}}
+                    </div>
+                    <div class="row justify-content-center">
+                        <p><a href="{% url 'shop_detail' i.id }">Lihat details</a></p>
+                    </div>
+                </div> 
+                {% endfor %}
+            </div>
+    </div>
+{% endblock %}

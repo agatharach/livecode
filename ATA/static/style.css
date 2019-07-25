@@ -1,0 +1,61 @@
+/* Header base */
+/* header {
+    width: 100%;
+    height: 89px;
+    z-index: 10;   
+} */
+/* .alpha {
+    padding-top: 30px;
+    margin-left: 35px;
+    color: black;
+} */
+
+.menu {
+    /* background-color : white; */
+    /* padding-top: 30px; */
+    text-align: right;
+}
+.menu li {
+    display: inline;
+    margin-right: 15px;
+    color: black;
+}
+.menu a, .alpha a {
+    text-decoration: none;
+    color: black
+}
+/* .still {
+    background-color: #2ce6ec;
+    text-align: center;
+    color: white;
+} */
+/* Footer base */
+.footer {
+    text-align : center;
+    margin: 0;
+}
+.our_product {
+    background-color: #2ce6ec
+    width: 100%;
+    height: 89px;     
+}
+.our_product li {
+    display: inline;
+}
+.CP {
+    background-color: black;
+    color: white;
+}
+.email{
+    color: blue;
+}
+/* Author.html */
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+/* Mentee.html */
+.menteephotos {
+    width : 200px;
+    height: 200px;
+}

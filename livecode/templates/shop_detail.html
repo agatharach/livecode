@@ -1,0 +1,25 @@
+{% extends "base/base.html" %}
+
+
+{% block content %}
+
+<div class="container">
+    <div class="row  justify-content-center">
+            <div class="col-8">
+                <img width="100%" src="{{ shop.photo }}">
+            </div>
+            <div class="col-8 text-left">
+                <h4><b>{{shop.nama}}</b></h4>
+            </div>
+            
+            <div class="col-5 text-left">
+                <h4 class="harga">{{shop.harga}}</h4>
+            </div>
+            <div class="col-3 text-right">
+                <p>Deskripsi Produk : <br>
+                    {{shop.deskripsi}}
+                <p>
+            </div>
+    </div>
+</div>
+{% endblock %}
